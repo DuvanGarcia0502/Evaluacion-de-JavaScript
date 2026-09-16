@@ -285,7 +285,7 @@ export async function enriquecerTodosLosUsuarios() {
 
         // Mostramos el error en caso de que falle alguna petición.
         console.error(
-            "\nNo fue posible enriquecer la información de los usuarios."
+            "\nNo fue posible generar la información de los usuarios."
         );
     }
 }
